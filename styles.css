@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+body{
+    position: relative;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    max-width: 1250px;
+    float: center;
+}
+
+.nav{
+    display:flex;
+    background-color: #c78022;
+    padding:2%;
+    justify-content: space-between;
+    color: bisque;
+    max-width: 1250px;
+}
+
+.nav-list {
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+.nav-link{
+    color:bisque;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding:2%;
+    margin: 2%;
+    font-size: 120%;
+}
+
+.name{
+    font-size: 200%;
+    font-weight: 700;
+    color:aliceblue;
+    padding-top: none;
+}
+
+.plus{
+    font-weight: 800;
+    font-size: 200%;
+    padding:0;
+    margin:0;
+    top:20%;
+}
+
+
+
+.nav-link:hover{
+    cursor: pointer;
+    color:azure;
+    text-decoration: underline;
+}
+
+.number{
+    font-weight: 500;;
+}
+
+.number-in,
+.mail-in{
+    font-style: italic;
+    color:aliceblue
+}
+
+.grid-cols-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.About{
+    grid-template-columns: 2fr 1fr;
+}
+
+.image-hospital{
+    padding-left: 50px;
+    width: 70%;
+    height: 70%;
+}
+
+.title{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:2%;
+
+}
+
+.about{
+    padding-left: 80px;
+    padding-top: 7%;
+    font-weight: 500;
+    float:center;
+}
+
+.label-head {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .registration-form input[type="text"], .registration-form input[type="email"], .registration-form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .registration-form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+@media (max-width: 600px) {
+    .registration-form input[type="text"], .registration-form input[type="email"], .registration-form input[type="password"] {
+      width: 100%;
+    }
+  }
+  
+  .image-skin{
+    margin-top: 50px;
+    padding-left: 50px;
+    width: 70%;
+    height: 70%;
+}
+
+.treatment-list {
+    display: inline-block;
+    /* list-style: none; */
+    padding: 30px 50px 30px 50px;
+    background-color: #abc3ac;
+    border-radius: 100px;
+}
+
+.top{
+    position:fixed;
+    bottom: 10%;
+    right:10%;
+    padding: 10px;
+    background-color: orangered;
+}
+
+
+.btn {
+    padding: 10px;
+    background-color: #4fbd55;
+    border-radius: 100px;
+    margin-top:20px;
+}
